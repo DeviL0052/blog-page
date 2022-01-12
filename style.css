@@ -1,0 +1,33 @@
+body .container{
+    display: grid;
+    grid-template-columns: 33% 33% 34%;
+}
+
+body .container .row3 .third{
+    border: 2px solid black;
+    border-radius: 5px;
+    text-align: center;
+}
+body .container .row3 .third button{
+    background-color: blue;
+    border-radius: 10px;
+    margin: auto;
+    
+}
+body .container .row3 .sixth{
+    border: 2px solid black;
+    border-radius: 5px;
+    
+}
+
+body .btn{
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+@media screen and (min-width: 480px) {
+    .container {
+        margin-left: 216px;
+    }
+    
+}
